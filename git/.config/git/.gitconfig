@@ -1,0 +1,8 @@
+[init]
+	defaultBranch = main
+[user]
+	name = Ryan Arora
+	email = arora.ryan@gmail.com
+	signingKey = 55064F04394D5152294C1763ADE822ECA5EE846F!
+[commit]
+	gpgSign = true

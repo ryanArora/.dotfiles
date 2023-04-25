@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+alias ls='ls --color'
+alias sudo='doas'
+alias vim='nvim'
+alias vi='vim'
