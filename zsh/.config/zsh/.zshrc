@@ -28,3 +28,21 @@ plugins=(
 for plugin in "${plugins[@]}"; do
     zsh_add_plugin $plugin
 done
+
+# pnpm
+export PNPM_HOME="/home/r/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# bit
+export PATH="$PATH:/home/r/bin"
+# bit end
+
+# bun completions
+[ -s "/home/r/.bun/_bun" ] && source "/home/r/.bun/_bun"
+
+# rust
+. "/home/r/.local/share/cargo/env"

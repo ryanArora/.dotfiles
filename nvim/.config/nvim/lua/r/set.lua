@@ -2,7 +2,7 @@ vim.opt.nu = true
 vim.opt.relativenumber = true
 vim.opt.smartindent = true
 
-vim.opt.wrap = true
+vim.opt.wrap = false
 
 vim.opt.swapfile = false
 vim.opt.backup = false
@@ -27,3 +27,5 @@ vim.g.closetag_regions = {
 }
 vim.g.closetag_shortcut = ">"
 vim.g.closetag_enable_react_fragment = 0
+
+vim.opt.hlsearch = false

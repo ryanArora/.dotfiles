@@ -3,6 +3,6 @@
 [user]
 	name = Ryan Arora
 	email = arora.ryan@gmail.com
-	signingKey = 55064F04394D5152294C1763ADE822ECA5EE846F!
+	signingKey = 22982703D36D476DCF714269C3C4611487B908FA!
 [commit]
 	gpgSign = true

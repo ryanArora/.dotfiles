@@ -6,7 +6,8 @@ require("packer").startup(function(use)
 
    -- Appearance
    use({ "nvim-tree/nvim-tree.lua", requires = "nvim-tree/nvim-web-devicons" })
-   use({ "nvim-lualine/lualine.nvim", requires = "nvim-tree/nvim-web-devicons" })
+   --use({ "nvim-lualine/lualine.nvim", requires = "nvim-tree/nvim-web-devicons" })
+   use("freddiehaddad/feline.nvim")
 
    -- Tmux
    use("alexghergh/nvim-tmux-navigation")
@@ -17,8 +18,7 @@ require("packer").startup(function(use)
 
    -- Autopair
    use("windwp/nvim-autopairs")
-   use("MaxMEllon/vim-jsx-pretty")
-   use("alvan/vim-closetag")
+   use("windwp/nvim-ts-autotag")
 
    -- LSP
    use("williamboman/mason.nvim")
@@ -65,4 +65,8 @@ require("packer").startup(function(use)
          "m00qek/baleia.nvim",
       },
    })
+
+   use({ "nvim-telescope/telescope.nvim", requires = "nvim-lua/plenary.nvim" })
+
+   use({ "lewis6991/gitsigns.nvim" })
 end)

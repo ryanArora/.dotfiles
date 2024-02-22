@@ -33,4 +33,4 @@ zstyle ':vcs_info:git:*' formats " %{$fg[blue]%}(%{$fg[red]%}%m%u%c%{$fg[yellow]
 
 # format our main prompt for hostname current folder, and permissions.
 PROMPT="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b"
-PROMPT+="\$vcs_info_msg_0_ %{$reset_color%}%"
+PROMPT+="\$vcs_info_msg_0_ "

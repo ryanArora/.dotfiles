@@ -13,6 +13,6 @@ indent_style = tab
 [*.lua]
 indent_size = 3
 
-[*.{cjs,mjs,js,jsx,ts,tsx,json,css,html,yml,yaml}]
+[*.{cjs,mjs,js,jsx,ts,tsx,json,css,html,yml,yaml,prisma}]
 indent_size = 2
 
